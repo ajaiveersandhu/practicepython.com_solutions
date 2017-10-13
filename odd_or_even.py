@@ -16,7 +16,7 @@ else:
 
 num = int(input("Enter a numerator(num) : \n> "))
 check = int(input("Enter a denominator(check) : \n> "))
-if check//num == 0:
+if check%num == 0:
     print("{0} divides {1} evenly.".format(check, num))
 else:
     print("{0} divides {1} oddly.".format(check, num))
